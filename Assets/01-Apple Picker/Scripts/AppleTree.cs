@@ -39,8 +39,6 @@ public class AppleTree : MonoBehaviour
         // Basic Movement
         Vector3 pos = transform.position;
         pos.x += speed * Time.deltaTime;
-        pos.x += 1.0f * 0.01f;
-        pos.x += 0.01f;
         transform.position = pos;
 
         // Changing Directions

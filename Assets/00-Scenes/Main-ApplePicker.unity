@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 6719652392803792509, guid: 572a8dabdf6be1644a6f5d61445b23dc, type: 3}
-  speed: 20
+  speed: 15
   leftAndRightEdge: 20
   chanceToChangeDirections: 0.02
   secondsBetweenAppleDrops: 0.5
@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 344775906}
   - component: {fileID: 344775908}
   - component: {fileID: 344775907}
+  - component: {fileID: 344775909}
   m_Layer: 5
   m_Name: HighScore
   m_TagString: Untagged
@@ -373,6 +374,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344775905}
   m_CullTransparentMesh: 1
+--- !u!114 &344775909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344775905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774ba5b3cb6777f4ea7333f4179f8c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &572122489
 GameObject:
   m_ObjectHideFlags: 0
