@@ -41,7 +41,7 @@ public class CloudCrafter : MonoBehaviour
 			cPos.y = Mathf.Lerp(cloudPosMin.y, cPos.y, scaleU);
 
 			// smaller clouds should be farther away
-			cPos.z = 100 -90*scaleU;
+			cPos.z = 100 - 90*scaleU;
 
 			// apply these transforms to the cloud 
 			cloud.transform.position = cPos;
