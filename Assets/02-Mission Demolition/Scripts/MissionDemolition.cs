@@ -96,6 +96,11 @@ public class MissionDemolition : MonoBehaviour
             // Start the next level in 2 seconds
             Invoke("NextLevel", 3f);
         }
+
+        if(S.shotsTaken == 4)
+        {
+            Invoke("StartLevel", 3f);
+        }
     }
 
     // Go to next level
